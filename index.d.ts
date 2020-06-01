@@ -1,5 +1,5 @@
 interface RemoveDSStore {
-  (): Promise<boolean>;
+  (targetPath: string): Promise<boolean>;
 }
 
 declare module 'dsstore' {
